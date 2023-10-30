@@ -1,0 +1,32 @@
+import java.util.Scanner
+
+public class triangle
+{
+	public static void main (String[] args)
+	{
+		int Triangle,angle1,angle2,angle3;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter Angle 1");
+		angle1=sc.nextInt();
+		
+		System.out.println("Enter Angle 2");
+		angle2=sc.nextInt();
+		
+		System.out.println("Enter Angle 3");
+		angle3=sc.nextInt();
+		
+		Triangle=angle1+angle2+angle3;
+		
+		if(Triangle==180)
+		{
+			System.out.println("Given Tringle is a valid triangle");
+		}
+		else
+		{
+			System.out.println("Given Triangle is not valid");
+		}
+		
+	}
+}
