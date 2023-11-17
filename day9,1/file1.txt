@@ -1,0 +1,2 @@
+Product [productId=15, name=Watermelon, desc=Great Fruit, quantity=60, price=70.0, productCategory=FRUITS, manufactureDate=2022-05-04]
+Product [productId=80, name=Mango, desc=Seasonal Fruit, quantity=45, price=800.0, productCategory=FRUITS, manufactureDate=2022-05-06]

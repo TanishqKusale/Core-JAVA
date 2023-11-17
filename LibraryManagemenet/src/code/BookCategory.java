@@ -1,0 +1,6 @@
+package code;
+
+public enum BookCategory {
+
+	CLASSICLITERATURE,	THRILLER, PSYCHOLOGY, MANUAL, SELFIMPORVEMENT 
+}
