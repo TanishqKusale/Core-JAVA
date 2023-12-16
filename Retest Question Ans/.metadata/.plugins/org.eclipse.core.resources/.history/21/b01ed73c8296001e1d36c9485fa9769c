@@ -1,0 +1,19 @@
+package que1stdmarksheet;
+
+import java.util.ArrayList;
+
+public class StudentUtils {
+	
+	public static ArrayList<Student> populateList() {
+		ArrayList<Student> al = new ArrayList<Student>();
+		
+		al.add(new Student(1,"Ram",99,98,100));
+		al.add(new Student(2,"Sham",99,98,100));
+		al.add(new Student(3,"Gargi",99,98,100));
+		al.add(new Student(4,"Lopamudra",99,98,100));
+		al.add(new Student(5,"Maitreya",99,98,100));
+		
+		return al;
+	}
+
+}

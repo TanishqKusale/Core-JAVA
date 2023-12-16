@@ -1,0 +1,14 @@
+package tester;
+
+public class ProductTester {
+
+	public static void main(String[] args) {
+		try(Scanner sc = new Scanner(System.in)){
+			
+		}catch (Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
+}

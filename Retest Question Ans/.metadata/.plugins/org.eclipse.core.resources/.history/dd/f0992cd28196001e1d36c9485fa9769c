@@ -1,0 +1,20 @@
+package que1stdmarksheet;
+
+public class Student {
+	private int rollNo;
+	private String name;
+	private int[] marks;
+	private int total;
+	private float avg;
+	public Student(int rollNo, String name, int[] marks) {
+		super();
+		this.rollNo = rollNo;
+		this.name = name;
+		this.marks = marks;
+		this.total = this.marks[0] + this.marks[1]+this.marks[2];
+		this.avg = this.total/3;
+	}
+	
+	
+
+}

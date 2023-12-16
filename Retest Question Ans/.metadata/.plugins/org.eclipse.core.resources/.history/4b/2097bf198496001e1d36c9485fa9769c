@@ -1,0 +1,32 @@
+package tester;
+
+import java.util.Scanner;
+
+public class ProductTester {
+
+	public static void main(String[] args) {
+		try(Scanner sc = new Scanner(System.in)){
+			int choice;
+			do {
+				System.out.println("Enter choice : \n" + "1: Accept product :\n" + "2: Search Product by Name :\n" + "3: Exit");
+				choice = sc.nextInt();
+			
+				switch (choice) {
+				case 1:
+					break;
+				case 2:
+					break;
+				case 0:
+					break;
+				
+				
+				}
+			}while(choice != 0);	
+			
+		}catch (Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
+}

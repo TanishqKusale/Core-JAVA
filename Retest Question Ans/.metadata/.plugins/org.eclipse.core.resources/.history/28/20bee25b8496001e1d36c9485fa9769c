@@ -1,0 +1,20 @@
+package code;
+
+public class Product {
+	private int pId;
+	private String pName;
+	private double price;
+	private int qty;
+	public Product(int pId, String pName, double price, int qty) {
+		super();
+		this.pId = pId;
+		this.pName = pName;
+		this.price = price;
+		this.qty = qty;
+	}
+	@Override
+	public String toString() {
+		return "Product [pId=" + pId + ", pName=" + pName + ", price=" + price + ", qty=" + qty + "]";
+	}
+	
+}
